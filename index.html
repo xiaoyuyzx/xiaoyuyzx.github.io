@@ -1,20 +1,67 @@
 <!DOCTYPE html>
 <html lang="en-US">
+	<script>
+	var name = 'xiao ming';
+	var word = 'nice to meet you.';
+	word=word.toUpperCase();
+	num=word.indexOf('MEET');
+	sub=word.substring(0,7);
+	var message = name + '\n' + word + num +sub;
+	alert("I\'m\"OK\"!\x41\u4e2d\u6587");	//	弹出框
+	alert(message);
+	alert('window inner size:' + window.innerWidth +'x' + window.innerHeight);
+	</script>
 <body style="background-color:powderblue;text-align:center">
 
-<p title="我的网页"><b>
-Welcome my HTML.
-</b></p>
+<p title="myweb">
+	<b><strong>
+	Welcome my HTML.
+	</strong></b>
+</p>
 
-<h1 style="color:blue;font-family:verdana;">This is my HTML</h1> 
-<h2 style="color:red; font-family:courier;font-size:300%">This is my HTML</h2>   //h2为字体
-<h3 style="color:yellow;"><i>This is my HTML</i></h3> 
+<h1 style="color:blue;font-family:verdana;">
+	<strong>
+		This is my HTML
+	</strong>
+</h1> 
 
-<p>Welcome my HTML.</p>
-<p>author:xiaoyuyzx.</p>
-<img src = "images/mypic.bmp" alt = "xiaoyuyzx.github.io" width = "500" height = "200">
-<a href = "https://xiaoyuyzx.github.io/">This is a link</a>
+<h2 style="color:red; font-family:courier;font-size:300%">
+	This is my HTML
+</h2>
+
+<h3 style="color:yellow;">
+	This is my HTML
+</h3> 
+
+<blockquote cite="hello world">
+	For 50 years, the world leading conservation organization, WWF works in 100 For 50 years, the world leading conservation organization, WWF works in 100,For 50 years, the world leading conservation organization, WWF works in 100,For 50 years, the world leading conservation organization, WWF works in 100,For 50 years, the world leading conservation organization, WWF works in 100 For 50 years, the world leading conservation organization, WWF works in 100,For 50 years, the world leading conservation organization, WWF works in 100,For 50 years, the world leading conservation organization, WWF works in 100,
+</blockquote>
+
+
+<p>
+	<em><i>
+		Welcome my HTML.
+	</i></em>
+</p>
+
+<p>
+	<mark>
+		author:xiaoyuyzx.
+	</mark>
+</p>
+
+<img src = "images/mypic.jpg" alt = "xiaoyuyzx.github.io" width = "500" height = "200">
+
+<a href = "https://xiaoyuyzx.github.io/">
+	This is a link
+</a>
+
 <br>close<br/>
+
+<button onclick="window.close();">
+	close
+</button>
+
 
 </body>
 </html>
